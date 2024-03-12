@@ -14,7 +14,7 @@ param(
 )
 
 $ErrorActionPreference = 'STOP'
-$git_url = 'https://github.com/chocolatey-community/chocolatey-au.git'
+$git_url = 'https://github.com/ITS-Unibas/chocolatey-au.git'
 
 if (!(Get-Command git -ea 0)) { throw 'Git must be installed' }
 [version]$git_version = (git --version) -replace 'git|version|\.windows'
