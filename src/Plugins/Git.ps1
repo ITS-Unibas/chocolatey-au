@@ -13,7 +13,7 @@ param(
     [string] $Password,
 
     # Force git commit when package is updated but not pushed.
-    [switch] $Force,
+    [switch] $Force = $true,
 
     # Add the package to the repository if it was created during the update process.
     [switch] $AddNew,
